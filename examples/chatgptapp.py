@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 # Load environment variables from the .env file
 load_dotenv()
 
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+# client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 
 def structured_generator(prompt):
